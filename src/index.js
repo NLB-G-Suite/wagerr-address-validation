@@ -74,7 +74,7 @@ const validateBech32 = (address) => {
   };
 };
 
-const validateBtcAddress = (address) => {
+const validateWgrAddress = (address) => {
   if (!address) {
     return false;
   }
